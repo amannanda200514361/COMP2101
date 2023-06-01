@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Display fully-qualified domain name
-fqdn=$(hostname)
+fqdn=$(hostname --fqdn)
 echo "Fully-Qualified Domain Name (FQDN): $fqdn"
 
 # Display operating system name and version
